@@ -1,0 +1,121 @@
+.header{
+    width: 890px;
+    height: 35px;
+    background-color: #c1eb9f;
+    margin: 0 auto;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-bottom: 1px solid #90bd6b;
+}
+
+form{
+    border: 1px solid #90bd6b;
+    width: 890px;
+    margin: 0 auto;
+}
+
+a{
+    text-decoration: none;
+}
+
+h1{ 
+    font-size: larger;
+    font-weight: bolder;
+    color: #000000;
+    padding-left: 10px;
+}
+
+.green{
+    margin-left: 40px;
+    background-color: #c1eb9f;
+    border: none;
+    width: 100px;
+}
+
+.right-block, .left-block{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    padding: 10px;
+    flex-wrap: wrap;
+    padding-right: 30px;
+}
+
+span{
+    font-weight: bolder;
+}
+
+.main{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+input, .address{
+    width: 200px;
+}
+
+.address{
+    height: 100px;
+}
+
+.URL{
+    width: 140px;
+}
+
+.phone{
+    width: 100px;
+}
+
+.radio{
+    width: auto;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.radio-button{
+    display: flex;
+    width: 100px;
+}
+
+select{
+    width: 200px;
+}
+
+label{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+.footer{
+    width: 890px;
+    height: 35px;
+    background-color: #e3e3e3;
+    margin: 0 auto;
+    border-top: 1px solid #c6dff5;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.button{
+    background-color: #91ba6f;
+    color: #ffffff;
+    border: 1px solid #7aa359;
+    margin-left: 10px;
+    width: 90px;
+}
+
+.required:after{
+    color: red;
+    content: " *";
+}
+
+p{
+    text-align: center;
+}
+
+.Message{
+    width: 200px;
+}

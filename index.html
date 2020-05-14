@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <form action="">
+        <div class="header">
+            <a href="#"><span><h1> Contact Manager</h1></span></a>
+            <select class="green">
+                <option>More Actions</option>
+                <option>Call Manager</option>
+                <option>Write feedback</option>
+                <option>Continue shopping</option>
+              </select>
+        </div>
+
+        <div class="main">
+            <div class="left-block">
+                <label class="input-item">
+                    <span class="required">First Name</span>
+                        <input type="text" placeholder="Enter your First Name" name="first_name" value="" required /> 
+                </label>
+
+                <label class="input-item">
+                        <span class="required">Last Name</span> 
+                            <input type="text"  placeholder="Enter your Last Name" name="sec_name" value="" required/>
+                </label>
+
+                <label class="input-item">
+                    <span>Address</span>  
+                        <textarea class="address" cols="40" rows="10" name="textarea" >
+                        </textarea>
+                </label>
+
+                <label class="input-item">
+                    <span>City</span>
+                        <input type="text" name="city" value="" />
+                </label>
+
+                <label class="input-item">
+                    <span>State</span>
+                        <select name="select">
+                            <option value="state">-Select-</option>
+                            <option value="state1" selected="selected">State1</option>
+                            <option value="state2">State2</option>
+                            <option value="state3">State3</option>
+                            <option value="state4">State4</option>
+                            <option value="state5">State5</option>
+                        </select>
+                </label>
+
+                <label class="input-item">
+                    <span>ZIP</span> 
+                        <input type="text" name="zip" value="" />
+                    </label>
+                <label class="input-item">
+                    <span>Home Phone</span> 
+                    <input class="phone" type="text" name="home_phone" value="" />
+                </label>
+
+                <label class="input-item">
+                    <span class="required">Work Phone</span> 
+                        <input type="text" name="work_phone" value="" required/>
+                </label>
+
+                <label class="input-item">
+                    <span>Fax Number</span> 
+                    <input class="phone" type="text" name="fax_number" value="" />
+                </label>
+
+                <label class="input-item">
+                    <span>Website</span> 
+                        <ul>
+                            <li>
+                                <label class="input-item">
+                                    <p>URL</p>
+                                    <input class="URL" type="text" name="website" value="" />
+                                </label>
+                            </li>
+
+                            <li>
+                                <label class="input-item">
+                                    <p>Link Name</p>
+                                    <input class="URL" type="text" name="website" value="" />
+                                </label>
+                            </li>
+                        </ul>
+                </label>
+
+                <label class="input-item">
+                    <span class="required">Email Address</span>
+                        <input type="text" name="email" value="" required/>
+                </label>
+            </div>
+
+            <div class="right-block">
+
+                <label class="input-item">
+                    <span>What is the best time to contac you?</span> 
+                    <ul>
+                        <li class="radio-button">
+                            <input class="radio" type="checkbox" name="contact" value="morning" />
+                            <p> Morning</p>
+                        </li>
+                        <li class="radio-button"> 
+                            <input class="radio" type="checkbox" name="contact" value="afternoon" />
+                            <p>Afternoon</p>
+                        </li>
+
+                        <li class="radio-button">
+                            <input class="radio" type="checkbox" name="contact" value="evening" />
+                            <p>Evening</p>
+                        </li>
+                    </ul>
+                </label>
+
+                <label class="input-item">
+                    <span>What is the best way to contact you?</span> 
+                    <ul>
+                        <li class="radio-button">
+                            <input class="radio" type="checkbox" name="contact" value="morning" />
+                            <p>Phone</p>
+                        </li>
+                        <li class="radio-button"> 
+                            <input class="radio" type="checkbox" name="contact" value="afternoon" />
+                            <p> Email</p>
+                        </li>
+                        <li class="radio-button"> 
+                            <input class="radio" type="checkbox" name="contact" value="evening" />
+                            <p> Fax</p>
+                        </li>
+                    </ul>
+                </label>
+
+                <label class="input-item">
+                    <span>Message</span>
+                     <textarea class="Message" cols="40" rows="10" placeholder="Enter your message here" name="textarea" ></textarea>
+                    </label>
+            </div>
+        </div>
+        <div class="footer">
+            <input type="submit" class="button" name="submit" value="Submit"/>
+            <input type="reset" class="button" name="reset" value="Reset"/>
+        </div>
+
+
+
+
+    </form>
+    
+</body>
+</html>
